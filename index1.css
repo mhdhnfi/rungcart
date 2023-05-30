@@ -1,32 +1,17 @@
 *{
-  
+
 }
+
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
     
 }
+ .card{
+    margin-top: 130px;
+    margin-bottom: 100px;
+ }
 
-
-.catalog .card {
-    cursor: pointer;
-    transition: transform .2s ease-out; /* Animation */
-    
-}
-
-.catalog .card:hover {
-    transform: scale(1.06);
-    
-}
-
-/* perbedaan css class dan id */
-/* class = . */
-/* id = # */
-#typedjs{
-    color: #53ABE9;
-}
-
-
-#footer {
+ #footer {
     font-size: 14px;
   }
   
@@ -214,30 +199,4 @@ body {
     #footer .credits {
       padding-top: 4px;
     }
-  }
-
-
-  
-  @media screen and (max-width: 762px){
-   #home {
-    flex-direction: column;
-    justify-content: center;
-    display: space-evenly;
-   } 
-    
-   #homepage {
-    height: auto;
-    width: auto;
-    flex-direction: column;
-   }
-
-   #home .gambarhome{
-    align-items: center;
-    flex-direction: column;
-   }
-   #home .gambarhome img{
-    width: auto;
-    height: auto;
-    max-width: 380px;
-   }
   }

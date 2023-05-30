@@ -34,16 +34,39 @@
             <a class="nav-link" href="#footer"">Contact</a>
           </div>
         </div>
-        <div class="collapse navbar-collapse justify-content-end gap-2">
-          <div class="navbar-nav">
-            <div class="d-grid gap-2 d-md-block ">
-              <button type="button" class="btn btn-primary  me-2"><a href="login.html" class="text-decoration-none text-light">Login</a></button>
-              <button type="button" class="btn btn-outline-primary  me-5"><a href="signin.html" class="text-decoration-none text-light">Sign In</a></button>
-            </div>
-          </div>
-        </div>
+
+        <a href="login.html" style="color: black;"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user mx-3" width="24" height="24"
+            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+            <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+          </svg></a>
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart mx-3" width="24"
+          height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+          stroke-linejoin="round" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+          <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+          <path d="M17 17h-11v-14h-2"></path>
+          <path d="M6 5l14 1l-1 7h-13"></path>
+        </svg>
+
       </div>
-    </nav>
+    </div>
+  </nav>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      ...
+    </div>
+  </div>
+
     <!-- end navbar -->
     
     <section id="home" href="home" class="container d-flex justify-content-evenly align-items-center shrink-0 pt-5">
